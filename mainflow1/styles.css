@@ -1,0 +1,128 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    background-image: url('https://res.cloudinary.com/djrt47cbi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1732116358/574580_fuufaq.jpg'); /* Path to your background image */
+    background-size: cover;  /* Make the background image cover the entire page */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Ensure the background stays in place when scrolling */
+    background-repeat: no-repeat; /* Ensure the background image doesn't repeat */
+  }
+  /* Header */
+  .header {
+    background-color: #1e2e40;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 1.2em;
+    margin-top: 0;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #837777;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+  }
+  
+  .navbar li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+  }
+  
+  .navbar a:hover {
+    background-color: #ddd;
+    color: #7b6565;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  /* Main Cars Section */
+  .cars {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .car-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    padding: 15px;
+  }
+  
+  .car-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .car-item img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .car-item h2 {
+    font-size: 1.5em;
+    margin: 15px 0;
+  }
+  
+  .car-item p {
+    color: #7a6868;
+    font-size: 1.1em;
+  }
+  
+  .car-item button {
+    background-color: #1a2a3d;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    width: 100%;
+  }
+  
+  .car-item button:hover {
+    background-color: #233647;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+  
