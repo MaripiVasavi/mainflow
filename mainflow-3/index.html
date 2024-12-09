@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Car Dealership Website - Best Deals on New and Used Cars">
+  <meta name="author" content="Car Dealership">
+  <meta name="robots" content="index, follow">
+  <title>Car Dealership - Best Deals on Cars</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Main Header -->
+  <header class="header">
+    <h1>Car Haven</h1>
+    <p>Find Your Perfect Car Today at Amazing Prices!</p>
+  </header>
+
+  <!-- Hamburger Menu -->
+  <div class="hamburger" onclick="toggleMenu()">&#9776;</div>
+0
+  <nav class="navbar">
+    <a href="#home">Home</a>
+    <a href="#cars">Cars</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  
+
+  <!-- Main Content: Cars -->
+  <main id="cars" class="cars">
+    <section class="car-item" aria-labelledby="car1">
+      <img src="https://res.cloudinary.com/djrt47cbi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1732116383/pic1_v038ji.jpg" width="200" height="300" alt="Sports Car Image" />
+      <h2 id="car1">Luxury Sports Car</h2>
+      <p>$50,000</p>
+      <button type="button" aria-label="Add Luxury Sports Car to cart">Add to Cart</button>
+    </section>
+
+    <section class="car-item" aria-labelledby="car2">
+      <img src="https://res.cloudinary.com/djrt47cbi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1732116348/2021-Kia-K5-GT-01_epeinb.avif" width="200" height="300" alt="Family Sedan Image" />
+      <h2 id="car2">Family Sedan</h2>
+      <p>$30,000</p>
+      <button type="button" aria-label="Add Family Sedan to cart">Add to Cart</button>
+    </section>
+
+    <section class="car-item" aria-labelledby="car3">
+      <img src="https://res.cloudinary.com/djrt47cbi/image/upload/w_1000,ar_16:9,c_fill,g_auto,e_sharpen/v1732116370/Ford-Mach-E-awd_iv4aiu.webp" width="200" height="300" alt="Electric Car Image" />
+      <h2 id="car3">Electric Car</h2>
+      <p>$40,000</p>
+      <button type="button" aria-label="Add Electric Car to cart">Add to Cart</button>
+    </section>
+  </main>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>We provide a curated collection of the best books at unbeatable prices!</p>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <br>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Books Store. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
